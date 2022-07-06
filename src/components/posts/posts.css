@@ -1,0 +1,39 @@
+.posts{
+	margin: auto;
+	display: flex;
+	overflow:auto;
+	white-space: nowrap;
+	padding: 5px;
+	justify-content: space-between;
+}
+.posts::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+.posts::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.posts::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.posts::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 100px;
+}
+
+/*.mx{
+	margin: 15px 0;
+}
+*/
+
+@media (max-width:  768px){
+	.posts.container{
+		width: 100% !important;
+	}
+}

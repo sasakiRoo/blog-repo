@@ -1,0 +1,16 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #302600;
+}
+ul li{
+	list-style: none;
+}
+
+.container{
+	width: 70%;
+}

@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.post {
+    margin: 5px 8px;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #DFDCFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-info,
+.post-desc {
+    padding: 5px;
+}
+.post-info{
+    height: 20%;
+}
+.post-desc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30%;
+}
